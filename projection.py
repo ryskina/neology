@@ -2,6 +2,12 @@ import numpy as np
 from copy import deepcopy
 from gensim.models import keyedvectors
 
+"""
+This code is a slightly modified version of 
+Ryan Heuser's Gensim port (https://gist.github.com/quadrismegistus/09a93e219a6ffc4f216fb85235535faf) 
+of the HistWords Procrustes alignment code.
+The modifications include updating the code to work with newer versions of Gensim.
+"""
 
 def smart_procrustes_align_gensim(base_embed, other_embed, words=None):
     """Procrustes align two gensim word2vec models (to allow for comparison between same word across models).
@@ -17,7 +23,7 @@ def smart_procrustes_align_gensim(base_embed, other_embed, words=None):
     """
 
     # make sure vocabulary and indices are aligned
-    # added deepcopy here so that
+    # added deepcopy here so that the vocabularies do not end up restricted to anchor words only
     in_base_embed, in_other_embed = \
         intersection_align_gensim(deepcopy(base_embed), deepcopy(other_embed), words=words)
 
