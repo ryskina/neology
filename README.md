@@ -49,7 +49,7 @@ The MATLAB script for fitting the generalized linear model (GLM) can be found in
 Core dependencies:
   * Python >= 3.6
   * SciPy >= 1.0.1
-  * Gensim >= 3.7.0
+  * 3.7.0 <= Gensim < 4.0
   * NLTK
   * MATLAB (for GLM analysis only)
 
