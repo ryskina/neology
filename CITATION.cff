@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite them as below."
+authors:
+- family-names: "Ryskina"
+  given-names: "Maria"
+- family-names: "Rabinovich"
+  given-names: "Ella"
+- family-names: "Berg-Kirkpatrick"
+  given-names: "Taylor"
+- family-names: "Mortensen"
+  given-names: "David R."
+- family-names: "Tsvetkov"
+  given-names: "Yulia"
+title: "Where New Words Are Born: Distributional Semantic Analysis of Neologisms and Their Semantic Neighborhoods (implementation)"
+date-released: 2020-01-16
+url: "https://github.com/ryskina/neology"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Ryskina"
+    given-names: "Maria"
+  - family-names: "Rabinovich"
+    given-names: "Ella"
+  - family-names: "Berg-Kirkpatrick"
+    given-names: "Taylor"
+  - family-names: "Mortensen"
+    given-names: "David R."
+  - family-names: "Tsvetkov"
+    given-names: "Yulia"
+  doi: "10.7275/1jra-8m83"
+  journal: "Proceedings of the Society for Computation in Linguistics"
+  start: 43 # First page number
+  end: 52 # Last page number
+  title: "Where New Words Are Born: Distributional Semantic Analysis of Neologisms and Their Semantic Neighborhoods"
+  issue: 1
+  volume: 3
+  year: 2020
