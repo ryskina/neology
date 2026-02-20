@@ -1,11 +1,11 @@
-This repository contains the code and supplementary materials for the [paper](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1148&context=scil):
+This repository contains the code and supplementary materials for the [paper](https://openpublishing.library.umass.edu/scil/article/id/1171/):
 ```
 Where New Words Are Born: Distributional Semantic Analysis of Neologisms and Their Semantic Neighborhoods
 Maria Ryskina, Ella Rabinovich, Taylor Berg-Kirkpatrick, David R. Mortensen, Yulia Tsvetkov
 SCiL 2020
 ```
 
-Please contact mryskina@cs.cmu.edu for any questions.
+Please contact mryskina@alumni.cmu.edu for any questions.
 
 Embedding alignment code in `projection.py` is based on [Ryan Heuser's Gensim port](https://gist.github.com/quadrismegistus/09a93e219a6ffc4f216fb85235535faf) of William Hamilton's alignment code in [HistWords](https://github.com/williamleif/histwords).
 
@@ -21,8 +21,6 @@ python train_w2v.py <coha_path> historical
 python train_w2v.py <coca_path> modern
 ```
 where `<coha_path>` and `<coca_path>` need to be replaced with paths to COHA and COCA top-level text directories respectively. Trained embedding models will be saved into the `models` directory. 
-
-Pretrained embeddings will be available shortly.
 
 Code to reproduce the main analysis:
 ```
